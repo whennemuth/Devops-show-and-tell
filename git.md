@@ -3,27 +3,27 @@
 Version control is a good first step. Git is the obvious choice here.
 The official Git documentation has all the introductory material you may need, though google can always provide.
 
-[https://git-scm.com/doc]: https://git-scm.com/doc
+[https://git-scm.com/doc](https://git-scm.com/doc)
 
 
 
 1.  If you’ve never used git, I’d watch the intro videos first:
 
-   1. [What is Version Control?]: https://git-scm.com/video/what-is-version-control​
+   1. [What is Version Control](https://git-scm.com/video/what-is-version-control)
 
-   2. [What is Git?]: https://git-scm.com/video/what-is-git
+   2. [What is Git?](https://git-scm.com/video/what-is-git)
 
-   3. [Get going]: https://git-scm.com/video/get-going
+   3. [Get going](https://git-scm.com/video/get-going)
 
-   4. [Quick wins]: https://git-scm.com/video/quick-wins
+   4. [Quick wins](https://git-scm.com/video/quick-wins)
 
 2. The External Links section also divides learning into stages: 
 
-   [External Documents]: https://git-scm.com/doc/ext
+   [External Documents](https://git-scm.com/doc/ext)
 
 3. And then there’s the git book: 
 
-   [Git Pro Book]: https://git-scm.com/book
+   [Git Pro Book](https://git-scm.com/book)
 
    
 
@@ -35,7 +35,7 @@ The official Git documentation has all the introductory material you may need, t
 
    1.  Download and install git with gitbash: 
 
-      [Git Download]: https://git-scm.com/downloads
+      [Git Download](https://git-scm.com/downloads)
 
       The best way to learn git is through the command line. There will be downloads for GUI Clients, but our show and tells may be scripted.
 

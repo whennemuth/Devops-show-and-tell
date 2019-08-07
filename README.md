@@ -38,7 +38,7 @@ This is for those of us who've had no exposure to any dev-ops/AWS and are on the
 
 ------
 
-1. [**Git**]: (git.md)
+1. [Git](git.md)
 
 2. **Bash**
 
