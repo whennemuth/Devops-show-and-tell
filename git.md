@@ -27,11 +27,11 @@ The official Git documentation has all the introductory material you may need, t
 
    
 
-#### Program
+#### Exercises
 
 ------
 
-1. *Program 1*
+1. 
 
    1.  Download and install git with gitbash: 
 
@@ -60,7 +60,7 @@ The official Git documentation has all the introductory material you may need, t
 
       
 
-2. *Program 2*
+2. TBD
 
-3. *Program 3*
+3. TBD
 
