@@ -38,7 +38,7 @@ This is for those of us who've had no exposure to any dev-ops/AWS and are on the
 
 ------
 
-1. [**Git**](git/README.md.md)
+1. [**Git**](git/README.md)
 
 2. [**Bash**](linux-and-bash/README.md)
 
