@@ -21,13 +21,14 @@ This is for those of us who've had no exposure to any dev-ops/AWS and are on the
 
 
 
-**LONG TERM TARGET?**: Perhaps put a sandbox version of an app currently supported by member up on the cloud.
+**LONG TERM TARGET?**: 
+Hands-on ability and practical readiness for common cloud-related functions on AWS and linux environments. A potential exercise to demonstrate this kind of readiness could be to put a sandbox version of an app currently supported by member up on the cloud.
 
  
 
 **LOGISTICS/CONSIDERATIONS:**
 
--  Meeting would always take a back seat to the job.
+-  Meeting and exercises would always take a back seat to the job.
 - It would be optimum to all meet up in person. How to manage this?
 - How often to meet? Weekly? Every two weeks?
 -  What if someone has to skip a meeting or two?
@@ -56,3 +57,8 @@ This is for those of us who've had no exposure to any dev-ops/AWS and are on the
 
 9. 
 
+
+
+**LINKS**
+
+- [BU Cloud FAQ](https://bucloud1st.wordpress.com/bu-cloud-sandbox-faq/)
