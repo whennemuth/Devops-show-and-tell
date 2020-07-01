@@ -1,6 +1,10 @@
 #!/bin/bash
 
-source ../../../lib.sh
+if [ -f ../../lib.sh ] ; then
+  source ../../lib.sh
+elif [ -f ../../../lib.sh ] ; then
+  source ../../../lib.sh
+fi
 
 docker rm -f devops-bash-exercise1 2> /dev/null || true
 
