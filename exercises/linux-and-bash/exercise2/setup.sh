@@ -29,7 +29,6 @@ container1="ssh-daemon_1"
 container2="ssh-daemon_2"
 
 runContainers() {
-
   ( ( [ ! -d mount1 ] && mkdir -p mount1 ) || true ) && \
   ( ( [ ! -d mount2 ] && mkdir -p mount2 ) || true ) && \
   (docker rm -f $container1 2> /dev/null || true) && \
