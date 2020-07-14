@@ -18,12 +18,17 @@
 #      ssh -i /home/myuser1/.ssh/id_rsa2 myuser2@172.17.0.1 -p [host port as noted above in step 3]
 #   8) ssh -i /home/myuser2/.ssh/id_rsa1 myuser1@172.17.0.1 -p [host port as noted above in step 3]
 
-source ../../../lib.sh
+if [ -f ../../lib.sh ] ; then
+  source ../../lib.sh
+elif [ -f ../../../lib.sh ] ; then
+  source ../../../lib.sh
+fi
+
+image='wrh1/ssh-daemon'
+container1="ssh-daemon_1"
+container2="ssh-daemon_2"
 
 runContainers() {
-  local image='wrh1/ssh-daemon'
-  local container1="ssh-daemon_1"
-  local container2="ssh-daemon_2"
 
   ( ( [ ! -d mount1 ] && mkdir -p mount1 ) || true ) && \
   ( ( [ ! -d mount2 ] && mkdir -p mount2 ) || true ) && \
