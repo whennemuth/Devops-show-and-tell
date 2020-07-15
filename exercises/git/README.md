@@ -57,3 +57,5 @@ The official Git documentation has all the introductory material you may need, t
 
 - #### Exercise 2
 
+  Make your own. Script up something that employs any git feature or use case that you don't already know or is unfamiliar with.
+
