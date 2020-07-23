@@ -104,15 +104,19 @@ And the full reference manual.
    You should see that two new docker containers are running.
    Each container has a bind mount and is running a ubuntu operating system.
 
-   Write 2 bash scripts:
+   You will need to write a bash script for each of the instances, named something like:
 
    - ssh-daemon_1: `/tmp/script1.sh`
    - ssh-daemon_2 : `/tmp/script2.sh`
 
-   The bash content you author in each script file should allow you to do the following:
-   Shell into each container and run each script.
+   The name of the script could be the same for both as they both do the same thing. The script should:
+   
+   - Create a unix account for yourself. The user can be a name of your own choosing. Think of this as your own account on that machine. 
+   - Use ssh public/private keys to access so you can logon to the other server (ie. logged into your new account on ssh-daemon_1 you can ssh to ssh-daemon_2 without any password.)
+   
+   To verify the process, shell into each container and run the script.
 
-   ```0
+   ```
    docker exec -ti ssh-daemon_1 bash
    sh /tmp/script1.sh
    exit
